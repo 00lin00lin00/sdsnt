@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+        }
+        .left{
+            background-color: cadetblue;
+        }
+        .center{
+            background-color: darkkhaki;
+        }
+        .right{
+            background-color: palevioletred;
+        }
+        /* 媒体查询 */
+        @media screen and (max-width:540px){
+          
+        }
+        @media screen and (min-width:540px) and (max-width:970px){
+          div{
+            width: 50%;
+            float: left;
+           }
+        }
+        @media screen and (min-width:970px){
+            div{
+            width: 33.33%;
+            float: left;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="left">zuo</div>
+    <div class="center">zhong</div>
+    <div class="right">you</div>
+</body>
+</html>
